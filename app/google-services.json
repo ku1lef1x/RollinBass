@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "371762506770",
+    "firebase_url": "https://rollinbass-d41d0.firebaseio.com",
+    "project_id": "rollinbass-d41d0",
+    "storage_bucket": "rollinbass-d41d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371762506770:android:baf68715a50f54e3b43ccb",
+        "android_client_info": {
+          "package_name": "net.app.rollinbass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371762506770-gs72tvkiug1mob87c12f2159hhafd510.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsQ5Q5MW7Eei0yp_Y3Tx-Um5E00IqZbeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371762506770-gs72tvkiug1mob87c12f2159hhafd510.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

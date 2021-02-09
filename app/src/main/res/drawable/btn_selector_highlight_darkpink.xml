@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Background creado para resaltar textView de Registrar al hacer click sobre el
+        primero creamos un item, donde le damos un color rosaOscuro cuando
+        presionar es true.
+
+        Con drawable sin el pressed damos color al fondo en caso de ser necesario.
+
+
+        TODO: MIRAR PARA PONER EL COLOR DEL TEXTO AL PULSAR EN BLANCO-->
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@color/color_RollinDarkPink"
+        android:state_pressed="true"
+        />
+</selector>

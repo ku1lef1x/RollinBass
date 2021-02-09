@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoDjsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/abInfoDjs"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/ctlInfoDjs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:toolbarId="@+id/tbInfoDjs">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/tbInfoDjs"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                app:layout_collapseMode="parallax"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivInfoDjs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_LightGreen"
+                android:src="@drawable/png_beyota_pegatina"/>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttomPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_anchor="@id/abInfoDjs"
+        app:layout_anchorGravity="left|bottom"
+        android:src="@drawable/ic_play"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttomPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_anchor="@id/abInfoDjs"
+        app:layout_anchorGravity="center|bottom"
+        android:src="@drawable/ic_pause"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttomStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_anchor="@id/abInfoDjs"
+        app:layout_anchorGravity="right|bottom"
+        android:src="@drawable/ic_stop"/>
+
+
+    <include layout="@layout/scroll_infodjs"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

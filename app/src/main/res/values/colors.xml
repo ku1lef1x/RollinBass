@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#048379</color>
+    <color name="colorPrimaryDark">#0E5A5C</color>
+    <color name="colorAccent">#D066A4</color>
+
+    <!--Colores Roll in Bass-->
+    <color name="color_RollinBlack">#000000</color>
+    <color name="color_RollinWhite">#FFFFFF</color>
+    <color name="color_RollinRed">#C1292E</color>
+    <color name="color_RollinLightGreen">#05AB9E</color>
+    <color name="color_RollinDarkGreen">#0E5A5C</color>
+    <color name="color_RollinLightPink">#DF94C0</color>
+    <color name="color_RollinDarkPink">#D066A4</color>
+
+    <!--Colores necesarios-->
+    <color name="color_WhitePinked">#FFD9D9</color>
+    <color name="color_MediumLightPink">#F3BEDD</color>
+    <color name="color_MediumPink">#DC74B0</color>
+    <color name="color_LightGreen">#09AC9F</color>
+    <color name="color_verdeBoton">#1CBAAD</color>
+</resources>

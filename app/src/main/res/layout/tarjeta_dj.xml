@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="@color/color_LightGreen">
+    <RelativeLayout
+        android:id="@+id/tarjeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:focusable="true"
+        android:clickable="true">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivTarjeta"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_logoconfondoblanco"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTarjeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre_artista_hint"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_margin="20dp"
+            android:textColor="@color/color_RollinWhite"
+            android:textAllCaps="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ivTarjeta"
+            android:layout_toEndOf="@+id/ivTarjeta"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

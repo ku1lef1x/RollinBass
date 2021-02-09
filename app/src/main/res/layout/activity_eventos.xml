@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--En este layout se irán añadiendo los distintos eventos que la promotora vaya organizando
+cuando la situación actual de pandemia lo permita-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventosActivity"
+    android:background="@drawable/background_light_green">
+
+    <VideoView
+        android:id="@+id/vvYoutube1"
+        android:layout_width="235dp"
+        android:layout_height="235dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="40dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvEventos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vvYoutube1"
+        android:fontFamily="@font/roboto"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginEnd="45dp"
+        android:text="@string/eventos_problem"
+        android:textAllCaps="false"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/color_RollinDarkGreen"
+        android:textStyle="bold" />
+
+</RelativeLayout>
