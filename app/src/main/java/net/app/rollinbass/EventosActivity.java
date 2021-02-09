@@ -26,6 +26,8 @@ public class EventosActivity extends AppCompatActivity {
 
         actionBarIconTittle();
         cargarMeme();
+
+
     }
 
     //Onclick en el VideoView
