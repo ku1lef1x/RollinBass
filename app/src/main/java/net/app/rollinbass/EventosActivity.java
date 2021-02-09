@@ -25,7 +25,7 @@ public class EventosActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         actionBarIconTittle();
-        cargarMeme();
+        //cargarMeme();
     }
 
     //Onclick en el VideoView
