@@ -24,7 +24,7 @@ En Android Studio:
 3. Build APK(s)
 
 # Mantenimiento y actualización 
-@ku1lef1x
+https://github.com/ku1lef1x
 
 # Próximas novedades
 - Se añadirá un tablón en la página eventos donde se informará de los eventos online (twitch, youtube, facebook...) que se vayan realizando. 
